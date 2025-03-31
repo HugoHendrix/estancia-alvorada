@@ -12,8 +12,8 @@
 <body>
     <header>
         <!-- Barra de navegação -->
-        <nav>
-            <menu class="flex row justify-end"> <!-- Classe 'row' é essencial aqui -->
+        <nav">
+            <menu>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#relatos">Relatos</a></li>
@@ -191,30 +191,27 @@
         <section id="relatos">
             <h2 class="text-center">Vozes da Comunidade</h2>
 
-            <div class="depoimento">
-                <blockquote>
-                    "Antes era só mato e lixo. Agora meu neto tem onde brincar."
-                    <cite>Dona Marta, 62 anos</cite>
-                </blockquote>
-
-            </div>
-
-            <hr>
-
-            <div class="depoimento">
-                <blockquote>
-                    "Nunca achei que a gente conseguiria mudar esse lugar, entendi que unidos somos fortes. "
-                    <cite>Tiago, 16 anos. Estudante (Participou dos mutirões)</cite>
-                </blockquote>
-            </div>
-
-            <hr>
-
-            <div class="depoimento">
-                <blockquote>
-                    "Como comerciante, vejo que a praça revitalizada trouxe mais movimento para nosso bairro.
-                    <cite>Seu Joaquim, 58 anos. Dono do mercadinho local</cite>
-                </blockquote>
+            <div class="flex">
+                <div>
+                    <blockquote>
+                        "Antes era só mato e lixo. Agora meus netos tem onde brincar."
+                        <cite>Dona Marta, 62 anos. Avó de 4 netos</cite>
+                    </blockquote>
+                </div>
+                
+                <div>
+                    <blockquote>
+                        "Nunca achei que a gente conseguiria mudar esse lugar, entendi que unidos somos fortes. "
+                        <cite>Tiago, 16 anos. Estudante (Participou dos mutirões)</cite>
+                    </blockquote>
+                </div>
+                
+                <div>
+                    <blockquote>
+                        "Como comerciante, vejo que a praça revitalizada trouxe mais movimento para nosso bairro.
+                        <cite>Seu Joaquim, 58 anos. Dono do mercadinho local</cite>
+                    </blockquote>
+                </div>
             </div>
 
             <hr>
@@ -223,31 +220,17 @@
 
 
         <!-- Seção Sobre -->
-        <section id="sobre">
+        <section id="sobre" class="mb-4">
             <h2>Sobre o Projeto</h2>
-            <p>Iniciativa desenvolvida em 2025 pela comunidade Estância Alvorada em parceria com a Cruzeiro do Sul
-                Virtual.</p>
-            <h3>Equipe</h3>
-            <ul>
-                <li>Leticia (Professora)</li>
-                <li>José (Agricultor)</li>
-                <li>Ana (Estudante)</li>
-                <li>Carlos (Voluntário)</li>
-            </ul>
-
-            <form class="stack" netlify>
-                <label>Nome <input type="text" name="nome" required></label>
-                <label>Email <input type="email" name="email"></label>
-                <label>Sugestão <textarea name="mensagem"></textarea></label>
-                <button type="submit">Enviar</button>
-            </form>
+            <h3>📅 Origem</h3>
+            <p>Em 2025, moradores da Estância Alvorada Chácara se uniram para transformar a praça abandonada em um espaço de convivência, com apoio da Cruzeiro do Sul Virtual.</p>
+            <a href="jornada-de-extensao.pdf" target="_blank" rel="noopener noreferrer">Ver relatório da Jornada de Extensão - Cruzeiro do Sul</a>
         </section>
-
-
     </main>
 
-    <footer>
-        <p>Contato: praçaestancia@gmail.com | (17) 99999-9999</p>
+    <footer class="mb-5">
+        <h3>Praça Comunitária</h3>
+        <p>Desenvolvido com ❤️ pela comunidade do Estância Alvorda</p>
     </footer>
 </body>
 
