@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revitalização da Praça Estância Alvorada</title>
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegação -->
+        <nav>
+            <menu class="flex row justify-end"> <!-- Classe 'row' é essencial aqui -->
+              <li><a href="#home">Home</a></li>
+              <li><a href="#galeria">Galeria</a></li>
+              <li><a href="#relatos">Relatos</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+            </menu>
+          </nav>
+
+    </header>
+
+
+    <!-- Conteúdo principal -->
+    <main class="container">
+        <!-- Seção Home -->
+        <section id="home">
+            <header class="text-center">
+                <h1>Praça Estância Alvorada Renovada</h1>
+                <p>Um projeto comunitário para transformar nosso espaço público</p>
+            </header>
+            <img src="antes-depois.jpg" alt="Comparação antes e depois" class="responsive">
+        </section>
+
+        <!-- Seção Galeria -->
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="row">
+                <div class="col">
+                    <img src="mutirao1.jpg" alt="Mutirão de limpeza" class="responsive">
+                    <p>Primeiro mutirão de limpeza</p>
+                </div>
+                <div class="col">
+                    <img src="oficina.jpg" alt="Oficina de mobiliário" class="responsive">
+                    <p>Oficina de mobiliário sustentável</p>
+                </div>
+            </div>
+            <!-- Adicione mais imagens conforme necessário -->
+        </section>
+
+        <!-- Seção Relatos -->
+        <section id="relatos">
+            <h2>Relatos da Comunidade</h2>
+            <div class="depoimento">
+                <p>"Agora temos onde as crianças brincarem com segurança!"</p>
+                <small>- Maria, moradora há 15 anos</small>
+            </div>
+            <div class="depoimento">
+                <p>"Finalmente um lugar para conversar com os vizinhos."</p>
+                <small>- Seu José, aposentado</small>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Iniciativa desenvolvida em 2025 pela comunidade Estância Alvorada em parceria com a Cruzeiro do Sul
+                Virtual.</p>
+            <h3>Equipe</h3>
+            <ul>
+                <li>Leticia (Professora)</li>
+                <li>José (Agricultor)</li>
+                <li>Ana (Estudante)</li>
+                <li>Carlos (Voluntário)</li>
+            </ul>
+
+            <form class="stack" netlify>
+                <label>Nome <input type="text" name="nome" required></label>
+                <label>Email <input type="email" name="email"></label>
+                <label>Sugestão <textarea name="mensagem"></textarea></label>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>Contato: praçaestancia@gmail.com | (17) 99999-9999</p>
+    </footer>
+</body>
+
+</html>
